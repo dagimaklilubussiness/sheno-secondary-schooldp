@@ -1,0 +1,10 @@
+[build]
+  publish = "."
+
+[dev]
+  publish = "."
+
+[[headers]]
+  for = "/manifest.json"
+  [headers.values]
+    Content-Type = "application/manifest+json"
